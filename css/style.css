@@ -1,0 +1,78 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  header img:first-child {
+    margin: 1%;
+    float: left;
+    padding-left: 14.5%;
+  }
+  
+  header {
+    height: 90px;
+    background-color: black;
+  }
+  
+  ul {
+    padding: 3% 1.5%;
+  }
+  
+  *
+  {
+      box-sizing:border-box
+  }
+
+  
+  li {
+    display: inline;
+    margin: 5%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: darkgray;
+  }
+  
+  main {
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  img:first-child {
+    margin: 1%;
+    float: left;
+  }
+  
+  img:nth-child(2),
+  div img:last-child {
+    float: left;
+    margin: 10px;
+  }
+  
+  aside img {
+    margin: 1%;
+  }
+  
+  aside div {
+    width: 440px;
+    height: 360px;
+    float: right;
+    overflow: scroll;
+    margin-top: 1%;
+  }
+  
+  button {
+    float: right;
+    margin: -50px 32%;
+    background-color: black;
+    color: darkgray;
+    padding: 1%;
+  }
+  
+  footer {
+    clear: both;
+    background-color: black;
+    height: 60px;
+    margin-top: 1%;
+  }
