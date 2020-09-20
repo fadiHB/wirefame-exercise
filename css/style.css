@@ -1,81 +1,121 @@
 *
 {
-    box-sizing:border-box
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100%;
+    margin: auto;
+    padding-left: 15%;
+    padding-right: 15%; 
+}   
+
+header
+{
+    height: 90px;
+    width: 1000px;
+    background: #444444 ;
+
+}
+
+header img
+{
+    float: left;
+    padding-left: 8%;
+    margin: 0.5%;
 }
 
 
+nav ul li
+{
+    display: inline-block;
+    padding: 25px;;
+    margin-left: 30px;
+    color:grey;
+}
 
-body {
-    width: 100%;
-    margin: 0 auto;
-  }
-  
-  header img:first-child {
-    margin: 1%;
-    float: left;
-    padding-left: 14.5%;
-  }
-  
-  header {
-    height: 90px;
-    background: #2b2a2a ;
-  }
-  
-  ul {
-    padding: 3% 1.5%;
-  }
-  
+article img
+{
+    margin: 2.5% 20px;
+}
 
-  
-  li {
-    display: inline;
-    margin: 5%;
-  }
-  
-  a {
-    text-decoration: none;
-    color: darkgray;
-  }
-  
-  main {
-    width: 960px;
-    margin: 0 auto;
-  }
-  
-  img:first-child {
-    margin: 1%;
+/* article div img
+{
+    margin: auto;
+    padding: 5px;
+
+} */
+
+article div
+{
+    margin: 2.5% 20px;
+
+}
+/* article div img:first-child
+{
+    margin-left: 110px;
+} */
+
+article div img
+{
+    margin: auto;
+    padding: 8px;
+}
+
+/* p img
+{   
+    padding-left: 120px;
     float: left;
-  }
-  
-  img:nth-child(2),
-  div img:last-child {
-    float: left;
-    margin: 10px;
-  }
-  
-  aside img {
-    margin: 1%;
-  }
-  
-  aside div {
-    width: 440px;
-    height: 360px;
-    float: right;
+    margin: auto;
+    
+} */
+
+
+
+body :nth-child(3) img
+{
+  float: left;
+
+}
+/* h3
+{
+    padding-top: 25px;
+    margin-left: 51%;
+
+} */
+
+p,h3{
+    font-size: 30px;
+
+}
+
+p
+{
+    height: 355px;
+    width: 450px;
     overflow: scroll;
-    margin-top: 1%;
-  }
-  
-  button {
-    float: right;
-    margin: -50px 32%;
-    background-color: black;
-    color: darkgray;
-    padding: 1%;
-  }
-  
-  footer {
-    clear: both;
-    background-color: #2b2a2a;
-    height: 60px;
-    margin-top: 1%;
-  }
+}
+
+h3
+{
+    font-weight: bold;
+
+}
+
+footer
+{
+  clear: both;
+  background-color: #444444;
+  height: 90px;
+  width: 1000px;
+  margin-top: 1%;
+}
+
+button {
+
+
+  background-color: black;
+  color: darkgray;
+  padding: 1%;
+
